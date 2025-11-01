@@ -2,6 +2,7 @@
   "name": "@futebol-manager/shared-types",
   "version": "1.0.0",
   "description": "Tipos compartilhados entre a API e o Web",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {

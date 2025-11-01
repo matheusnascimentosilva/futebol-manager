@@ -1,4 +1,4 @@
-import { Player } from "./player.types";
+import type { Player } from "./player.types.js";
 
 /**
  * As séries do campeonato.

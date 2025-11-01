@@ -1,3 +1,3 @@
 // Exporta todos os tipos dos nossos novos arquivos
-export * from './player.types';
-export * from './team.types.ts';
+export * from '../player.types.js';
+export * from '../team.types.js';
