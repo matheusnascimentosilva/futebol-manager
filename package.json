@@ -1,0 +1,16 @@
+{
+  "name": "futebol-manager",
+  "version": "1.0.0",
+  "description": "Simulador de futebol estilo manager",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

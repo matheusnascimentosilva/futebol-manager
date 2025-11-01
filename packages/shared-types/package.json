@@ -1,0 +1,17 @@
+{
+  "name": "@futebol-manager/shared-types",
+  "version": "1.0.0",
+  "description": "Tipos compartilhados entre a API e o Web",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
