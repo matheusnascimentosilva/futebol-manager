@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@futebol-manager/shared-types": "*",
     "vue": "^3.5.22"
   },
   "devDependencies": {

@@ -1,5 +1,30 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import type { Team } from '../../shared-types/src/index.js'
+import { ref } from 'vue'
+
+// Exemplo de uso dos tipos compartilhados
+const teams = ref<Team[]>([])
+
+// Exemplo de time
+const exampleTeam: Team = {
+  id: '1',
+  name: 'Futebol Manager FC',
+  city: 'São Paulo',
+  stadium: 'Arena Exemplo',
+  series: 'A',
+  tactics: {
+    formation: '4-3-3',
+    mentality: 'Attacking'
+  },
+  players: [],
+  coach: 'Técnico Vue',
+  budget: 100,
+  primaryColor: '#42b883',
+  secondaryColor: '#35495e'
+}
+
+teams.value.push(exampleTeam)
 </script>
 
 <template>
